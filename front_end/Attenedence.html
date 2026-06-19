@@ -25,11 +25,72 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="list-group mt-3">
-                    <a href="dashboard.html" class="list-group-item list-group-item-action">Dashboard</a>
-                    <a href="attendence.html" class="list-group-item list-group-item-action active">Attendance</a>
-                    <a href="reports.html" class="list-group-item list-group-item-action">Report</a>
-                    <a href="student.html" class="list-group-item list-group-item-action">Students</a>
+                    <a href="/Frontend/Dashboard.html" class="list-group-item list-group-item-action ">Dashboard</a>
+                    <a href="#" class="list-group-item list-group-item-action active">Attendance</a>
+                    <a href="/Frontend/Report.html" class="list-group-item list-group-item-action">Report</a>
+                    <a href="/Frontend/students.html" class="list-group-item list-group-item-action">Students</a>
                 </div>
+            </div>
+            <div class="col-md-9">
+
+               <h4 class="mt-3">Attendance</h4>
+               <p>Mark The Attendance</p>
+               <div class="container-fluid">
+                <div class="card">
+                    <div class="card-body"></div>
+                    <label class="form-label mb-1"> Subject</label>
+                    <input type="text" class="form-control">
+                    <label class="form-label mb-1">Topics Covered</label>
+                    <input type="text" class="form-control">
+                    <label class="form-label mb-1">Date</label>
+                    <input type="date" class="form-control">
+                </div>
+                           
+            <h4 class="mt-3">Student List</h4>
+            <table class="table table-bordered" border='3'>
+                        <thead class="table-primary">
+                            <tr >
+                                <th>Roll No</th>
+                                <th>Name</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>24AG1AO555</td>
+                                <td>Ramu</td>
+                                <td><select name="" id="">
+                                    <option value="">Present</option>
+                                    <option value="">Absent</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td>24AG1AO555</td>
+                                <td>Ramu</td>
+                                <td><select name="" id="">
+                                    <option value="">Present</option>
+                                    <option value="">Absent</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td>24AG1AO555</td>
+                                <td>Ramu</td>
+                                <td><select name="" id="">
+                                    <option value="">Present</option>
+                                    <option value="">Absent</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td>24AG1AO555</td>
+                                <td>Ramu</td>
+                                <td><select name="" id="">
+                                    <option value="">Present</option>
+                                    <option value="">Absent</option>
+                                </select></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="btn btn-primary">Submit</button>
             </div>
             </div>
         </div>
